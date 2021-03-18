@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/StevieBoi/static/css/main.ab043d81.chunk.css",
+    "main.js": "/StevieBoi/static/js/main.646db26b.chunk.js",
+    "main.js.map": "/StevieBoi/static/js/main.646db26b.chunk.js.map",
+    "runtime-main.js": "/StevieBoi/static/js/runtime-main.f24b20b5.js",
+    "runtime-main.js.map": "/StevieBoi/static/js/runtime-main.f24b20b5.js.map",
+    "static/js/2.072a2d8c.chunk.js": "/StevieBoi/static/js/2.072a2d8c.chunk.js",
+    "static/js/2.072a2d8c.chunk.js.map": "/StevieBoi/static/js/2.072a2d8c.chunk.js.map",
+    "static/js/3.78bd56f2.chunk.js": "/StevieBoi/static/js/3.78bd56f2.chunk.js",
+    "static/js/3.78bd56f2.chunk.js.map": "/StevieBoi/static/js/3.78bd56f2.chunk.js.map",
+    "index.html": "/StevieBoi/index.html",
+    "static/css/main.ab043d81.chunk.css.map": "/StevieBoi/static/css/main.ab043d81.chunk.css.map",
+    "static/js/2.072a2d8c.chunk.js.LICENSE.txt": "/StevieBoi/static/js/2.072a2d8c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f24b20b5.js",
+    "static/js/2.072a2d8c.chunk.js",
+    "static/css/main.ab043d81.chunk.css",
+    "static/js/main.646db26b.chunk.js"
+  ]
+}
