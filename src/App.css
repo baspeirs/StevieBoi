@@ -56,3 +56,13 @@
   width: 100%;
   background-color: rgba(179, 179, 179, 0.698);
 }
+
+/* ===== Band Promo Styles ===== */
+
+.bandPromoBox {
+  padding: 30px;
+  margin-top: 15px;
+  width: 100%;
+  background-color: rgba(179, 179, 179, 0.698);
+  margin-bottom: 15px;
+}

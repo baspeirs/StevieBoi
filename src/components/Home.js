@@ -2,10 +2,10 @@ import React from 'react';
 import Container from './Container';
 import Row from './Row';
 import Column from './Column';
-import StevieBoiMain from '../assets/stevieMainImage.jpg';
 import Portfolio from './Portfolio';
 import About from './About';
 import Main from './Main';
+import BandPromo from './BandPromo';
 
 function Home() {
     return (
@@ -20,6 +20,7 @@ function Home() {
             <Main />
             <About />
             <Portfolio />
+            <BandPromo />
         </div>
     )
 }
