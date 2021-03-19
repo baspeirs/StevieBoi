@@ -11,12 +11,28 @@ function Portfolio() {
                 <Row>
                     <Column size="12">
                         <div className="portfolioBox">
-                        <Row>
+                            <Row>
                                 <Column size="6">
-                                    
+                                    <h4>Facebook</h4>
                                 </Column>
                                 <Column size="6">
-                                    <img src={StevieBoiMain} id="stevieBoiHero" alt="Stevie Boi slap da bass"/>
+                                    <p>Link coming soon</p>
+                                </Column>
+                            </Row>
+                            <Row>
+                                <Column size="6">
+                                    <h4>Spotify? Maybe?</h4>
+                                </Column>
+                                <Column size="6">
+                                    <p>Link coming soon</p>
+                                </Column>
+                            </Row>
+                            <Row>
+                                <Column size="6">
+                                    <h4>OnlyFans Coming Soon</h4>
+                                </Column>
+                                <Column size="6">
+                                    <p>use that picture of him in the tank top at jjs lol</p>
                                 </Column>
                             </Row>
                         </div>
