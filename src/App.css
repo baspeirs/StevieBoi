@@ -16,7 +16,7 @@
 #stevieBoi:before {
   content: '';
   position: absolute;
-  top: -2px;
+  top: -12px;
   left: -2px;
   width: 0;
   height: 0;
@@ -57,7 +57,7 @@
 #stevieBoi:after {
   content: '';
   position: absolute;
-  top: -2px;
+  top: -12px;
   left: -2px;
   width: 0;
   height: 0;
@@ -129,6 +129,10 @@
   margin-top: 15px;
   width: 100%;
   background-color: rgba(179, 179, 179, 0.698);
+}
+
+.card-title {
+  text-align: center;
 }
 
 /* ===== Portfolio Styles ===== */
