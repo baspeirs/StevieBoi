@@ -3,14 +3,24 @@
   background-image: linear-gradient(to right, rgb(46, 46, 46), rgb(87, 50, 1), rgb(46, 46, 46) );
 }
 
+#gaylord {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+.mainContentBox h4, .mainContentBox p {
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+}
+
 #stevieBoi, #stevieBoi:before, #stevieBoi:after  {
-  /* color: rgba(255, 255, 255, 0.698); */
-  color: white;
-  /* border-color: rgba(255, 255, 255, 0.698); */
+  color: rgba(255, 255, 255);
   text-align: center;
   margin-top: 15px;
   padding: 15px;
   position: relative;
+  font-family: 'Playfair Display', serif;
 }
 
 #stevieBoi:before {
@@ -31,7 +41,7 @@
   0% {
     width: 0;
     height: 0;
-    border-top-color: white;
+    border-top-color: rgba(255, 255, 255);
     border-right-color: transparent;
     border-bottom-color: transparent;
     border-left-color: transparent;
@@ -39,7 +49,7 @@
   50% {
     width: 100%;
     height: 0;
-    border-top-color: white;
+    border-top-color: rgba(255, 255, 255);
     border-right-color: transparent;
     border-bottom-color: transparent;
     border-left-color: transparent;
@@ -47,8 +57,8 @@
   100% {
     width: 100%;
     height: 100%;
-    border-top-color: white;
-    border-right-color: white;
+    border-top-color: rgba(255, 255, 255);
+    border-right-color: rgba(255, 255, 255);
     border-bottom-color: transparent;
     border-left-color: transparent;
   }
@@ -76,7 +86,7 @@
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    border-left-color: white;
+    border-left-color: rgba(255, 255, 255);
   }
   50% {
     width: 0;
@@ -84,15 +94,15 @@
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    border-left-color: white;
+    border-left-color: rgba(255, 255, 255);
   }
   100% {
     width: 100%;
     height: 100%;
     border-top-color: transparent;
     border-right-color: transparent;
-    border-bottom-color: white;
-    border-left-color: white;
+    border-bottom-color: rgba(255, 255, 255);
+    border-left-color: rgba(255, 255, 255);
   }
 }
 
@@ -101,7 +111,6 @@
   padding: 30px;
   margin-top: 15px;
   width: 100%;
-  /* background-color: rgba(179, 179, 179, 0.698); */
   background-color: rgba(255, 255, 255, 0.698);
 }
 
@@ -128,12 +137,47 @@
   padding: 30px;
   margin-top: 15px;
   width: 100%;
-  background-color: rgba(179, 179, 179, 0.698);
+  background-color: rgba(255, 255, 255, 0.698);
 }
 
-.card-title {
+#aboutTitle {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+#aboutSubHeader {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-style: italic;
   text-align: center;
 }
+
+.card-img-overlay {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 1;
+}
+
+.aboutImg {
+  opacity: .4;
+}
+
+.aboutTopRow {
+  margin-bottom: 15px;
+}
+
+.aboutTopRow:hover {
+  background-color: rgba(0, 0, 0);
+}
+
 
 /* ===== Portfolio Styles ===== */
 
