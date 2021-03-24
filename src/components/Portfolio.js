@@ -2,6 +2,12 @@ import React from 'react';
 import Container from './Container';
 import Row from './Row';
 import Column from './Column';
+import OnlyFansLogo from '../assets/1024px-OnlyFans_logo.svg.png';
+import FacebookLogo from '../assets/facebook-about-marketing-01.png';
+import SpotifyLogo from '../assets/Spotify_Logo_CMYK_Green.png';
+import HePray from '../assets/HePray.jpg';
+import OooAhh from '../assets/OooAhh.jpg';
+import OnlyFansComingSoon from '../assets/onlyFansComingSoon.jpg';
 
 function Portfolio() {
     return (
@@ -10,36 +16,47 @@ function Portfolio() {
                 <Row>
                     <Column size="12">
                         <div className="portfolioBox">
-                            <Row>
-                                <Column size="6">
-                                    <h4>Facebook</h4>
+                            <Row id="mediaTopRow">
+                                <Column size="xl-4">
+                                    <div class="card logoCard">
+                                        <img src={FacebookLogo} className="mediaLogo" alt="Facebook Logo" />
+                                    </div>
                                 </Column>
-                                <Column size="6">
-                                    <p>Link coming soon</p>
+                                <Column size="xl-4">
+                                    <div class="card logoCard">
+                                        <img src={SpotifyLogo} className="mediaLogo" alt="Facebook Logo" />
+                                    </div>
                                 </Column>
-                            </Row>
-                            <Row>
-                                <Column size="6">
-                                    <h4>Spotify? Maybe?</h4>
-                                </Column>
-                                <Column size="6">
-                                    <p>Link coming soon</p>
-                                </Column>
-                            </Row>
-                            <Row>
-                                <Column size="6">
-                                    <h4>OnlyFans Coming Soon</h4>
-                                </Column>
-                                <Column size="6">
-                                    <p>use that picture of him in the tank top at jjs lol</p>
+                                <Column size="xl-4">
+                                    <div class="card logoCard">
+                                        <img src={OnlyFansLogo} className="mediaLogo" alt="Facebook Logo" />
+                                    </div>
                                 </Column>
                             </Row>
                             <Row>
-                                <Column size="6">
-                                    <h4>Need something for The Emblem Faction</h4>
+                                <Column size="xl-4">
+                                    <div class="card bg-dark text-white">
+                                        <img src={HePray} className="mediaStevieImage" alt="He Pray" />
+                                        <div class="card-img-overlay">
+                                            <h3 class="card-title">Yeah, he got Facebook.</h3>
+                                        </div>
+                                    </div>
                                 </Column>
-                                <Column size="6">
-                                    <p>maybe two promotions on each side? Can i add more to this?</p>
+                                <Column size="xl-4">
+                                    <div class="card bg-dark text-white">
+                                        <img src={OooAhh} className="mediaStevieImage" alt="He Pray" />
+                                        <div class="card-img-overlay">
+                                            <h3 class="card-title">Better than having Sound Cloud.</h3>
+                                        </div>
+                                    </div>
+                                </Column>
+                                <Column size="xl-4">
+                                    <div class="card bg-dark text-white">
+                                        <img src={OnlyFansComingSoon} className="mediaStevieImage" alt="He Pray" />
+                                        <div class="card-img-overlay">
+                                            <h3 class="card-title">Coming Soon...</h3>
+                                        </div>
+                                    </div>
                                 </Column>
                             </Row>
                         </div>

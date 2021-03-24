@@ -185,9 +185,22 @@
   padding: 30px;
   margin-top: 15px;
   width: 100%;
-  background-color: rgba(179, 179, 179, 0.698);
+  background-color: rgba(255, 255, 255, 0.698);
 }
 
+.mediaLogo {
+  max-width: 400px;
+}
+
+.mediaStevieImage {
+  max-width: 400px;
+}
+
+.logoCard {
+  background-color: rgba(255, 254, 254, 0);
+  border: none;
+  margin-bottom: 15px;
+}
 /* ===== Band Promo Styles ===== */
 
 .bandPromoBox {
