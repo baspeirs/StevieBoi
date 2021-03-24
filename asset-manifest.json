@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/StevieBoi/static/css/main.87349040.chunk.css",
-    "main.js": "/StevieBoi/static/js/main.81fa60f4.chunk.js",
-    "main.js.map": "/StevieBoi/static/js/main.81fa60f4.chunk.js.map",
+    "main.css": "/StevieBoi/static/css/main.58015a18.chunk.css",
+    "main.js": "/StevieBoi/static/js/main.f5001e66.chunk.js",
+    "main.js.map": "/StevieBoi/static/js/main.f5001e66.chunk.js.map",
     "runtime-main.js": "/StevieBoi/static/js/runtime-main.f24b20b5.js",
     "runtime-main.js.map": "/StevieBoi/static/js/runtime-main.f24b20b5.js.map",
     "static/js/2.333a019d.chunk.js": "/StevieBoi/static/js/2.333a019d.chunk.js",
@@ -10,20 +10,26 @@
     "static/js/3.78bd56f2.chunk.js": "/StevieBoi/static/js/3.78bd56f2.chunk.js",
     "static/js/3.78bd56f2.chunk.js.map": "/StevieBoi/static/js/3.78bd56f2.chunk.js.map",
     "index.html": "/StevieBoi/index.html",
-    "static/css/main.87349040.chunk.css.map": "/StevieBoi/static/css/main.87349040.chunk.css.map",
+    "static/css/main.58015a18.chunk.css.map": "/StevieBoi/static/css/main.58015a18.chunk.css.map",
     "static/js/2.333a019d.chunk.js.LICENSE.txt": "/StevieBoi/static/js/2.333a019d.chunk.js.LICENSE.txt",
+    "static/media/1024px-OnlyFans_logo.svg.8b42a6e0.png": "/StevieBoi/static/media/1024px-OnlyFans_logo.svg.8b42a6e0.png",
     "static/media/BerBerDingFlavoredConfustion.db8794d0.jpg": "/StevieBoi/static/media/BerBerDingFlavoredConfustion.db8794d0.jpg",
+    "static/media/HePray.5c525dbe.jpg": "/StevieBoi/static/media/HePray.5c525dbe.jpg",
+    "static/media/OooAhh.2dd81885.jpg": "/StevieBoi/static/media/OooAhh.2dd81885.jpg",
+    "static/media/Spotify_Logo_CMYK_Green.8eef091b.png": "/StevieBoi/static/media/Spotify_Logo_CMYK_Green.8eef091b.png",
     "static/media/dogLovin.5c2d1596.jpg": "/StevieBoi/static/media/dogLovin.5c2d1596.jpg",
+    "static/media/facebook-about-marketing-01.0fe92e8c.png": "/StevieBoi/static/media/facebook-about-marketing-01.0fe92e8c.png",
     "static/media/gameNSleep.b8c0d94a.jpg": "/StevieBoi/static/media/gameNSleep.b8c0d94a.jpg",
     "static/media/heSayYes.dde8660e.jpg": "/StevieBoi/static/media/heSayYes.dde8660e.jpg",
     "static/media/jjsWithAGun.86ff4c97.jpg": "/StevieBoi/static/media/jjsWithAGun.86ff4c97.jpg",
+    "static/media/onlyFansComingSoon.af4797f1.jpg": "/StevieBoi/static/media/onlyFansComingSoon.af4797f1.jpg",
     "static/media/stevieMainImage.0e37d540.jpg": "/StevieBoi/static/media/stevieMainImage.0e37d540.jpg",
     "static/media/theFuckHeSmileAt.55b84bc1.jpg": "/StevieBoi/static/media/theFuckHeSmileAt.55b84bc1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f24b20b5.js",
     "static/js/2.333a019d.chunk.js",
-    "static/css/main.87349040.chunk.css",
-    "static/js/main.81fa60f4.chunk.js"
+    "static/css/main.58015a18.chunk.css",
+    "static/js/main.f5001e66.chunk.js"
   ]
 }
