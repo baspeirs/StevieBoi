@@ -18,45 +18,61 @@ function Portfolio() {
                         <div className="portfolioBox">
                             <Row id="mediaTopRow">
                                 <Column size="xl-4">
-                                    <div class="card logoCard">
-                                        <img src={FacebookLogo} className="mediaLogo" alt="Facebook Logo" />
-                                    </div>
+                                    <Row>
+                                        <Column size="12">
+                                            <div class="card logoCard">
+                                                <img src={FacebookLogo} className="mediaLogo" alt="Facebook Logo" />
+                                            </div>
+                                        </Column>
+                                    </Row>
+                                    <Row>
+                                        <Column size="12">
+                                            <div class="card bg-dark text-white mediaImageDiv">
+                                                <img src={HePray} className="mediaStevieImage" alt="He Pray" />
+                                                <div class="card-img-overlay">
+                                                    <h3 class="card-title">Yeah, he got Facebook.</h3>
+                                                </div>
+                                            </div>
+                                        </Column>
+                                    </Row>
                                 </Column>
                                 <Column size="xl-4">
-                                    <div class="card logoCard">
-                                        <img src={SpotifyLogo} className="mediaLogo" alt="Facebook Logo" />
-                                    </div>
+                                    <Row>
+                                        <Column size="12">
+                                            <div class="card logoCard">
+                                                <img src={SpotifyLogo} className="mediaLogo" alt="Facebook Logo" />
+                                            </div>
+                                        </Column>
+                                    </Row>
+                                    <Row>
+                                        <Column size="12">
+                                            <div class="card bg-dark text-white mediaImageDiv">
+                                                <img src={OooAhh} className="mediaStevieImage" alt="He Pray" />
+                                                <div class="card-img-overlay">
+                                                    <h3 class="card-title">Better than having Sound Cloud.</h3>
+                                                </div>
+                                            </div>
+                                        </Column>
+                                    </Row>
                                 </Column>
                                 <Column size="xl-4">
-                                    <div class="card logoCard">
-                                        <img src={OnlyFansLogo} className="mediaLogo" alt="Facebook Logo" />
-                                    </div>
-                                </Column>
-                            </Row>
-                            <Row>
-                                <Column size="xl-4">
-                                    <div class="card bg-dark text-white">
-                                        <img src={HePray} className="mediaStevieImage" alt="He Pray" />
-                                        <div class="card-img-overlay">
-                                            <h3 class="card-title">Yeah, he got Facebook.</h3>
-                                        </div>
-                                    </div>
-                                </Column>
-                                <Column size="xl-4">
-                                    <div class="card bg-dark text-white">
-                                        <img src={OooAhh} className="mediaStevieImage" alt="He Pray" />
-                                        <div class="card-img-overlay">
-                                            <h3 class="card-title">Better than having Sound Cloud.</h3>
-                                        </div>
-                                    </div>
-                                </Column>
-                                <Column size="xl-4">
-                                    <div class="card bg-dark text-white">
-                                        <img src={OnlyFansComingSoon} className="mediaStevieImage" alt="He Pray" />
-                                        <div class="card-img-overlay">
-                                            <h3 class="card-title">Coming Soon...</h3>
-                                        </div>
-                                    </div>
+                                    <Row>
+                                        <Column size="12">
+                                            <div class="card logoCard">
+                                                <img src={OnlyFansLogo} className="mediaLogo" alt="Facebook Logo" />
+                                            </div>
+                                        </Column>
+                                    </Row>
+                                    <Row>
+                                        <Column size="12">
+                                            <div class="card bg-dark text-white mediaImageDiv">
+                                                <img src={OnlyFansComingSoon} className="mediaStevieImage" alt="He Pray" />
+                                                <div class="card-img-overlay">
+                                                    <h3 class="card-title">Coming Soon...</h3>
+                                                </div>
+                                            </div>
+                                        </Column>
+                                    </Row>
                                 </Column>
                             </Row>
                         </div>
